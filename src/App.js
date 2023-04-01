@@ -61,7 +61,9 @@ const App = () => {
       {!isLoaded ? (
         <Loader progress={loadingProgress} />
       ) : (
-        <p>hello</p>
+        <Spline
+        className="spline"
+        scene="https://prod.spline.design/K5N7YUb5ultu502g/scene.splinecode"/>
       )}
     </div>
   );
