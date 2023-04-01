@@ -1,0 +1,40 @@
+.console {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .loading {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .loading div {
+    margin: 10px 0;
+  }
+  
+  .loader {
+    animation: rotate 1s infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loaded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
